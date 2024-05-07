@@ -1,0 +1,18 @@
+Subject: [PATCH] Updated Assignment class with different print() message and added add() method
+---
+Index: Example.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Example.java b/Example.java
+--- a/Example.java	(revision 5f2787e94db9447314bc20c68f00246f85c5f828)
++++ b/Example.java	(date 1715078664277)
+@@ -3,6 +3,6 @@
+         System.out.println(simple());
+     }
+     public static String simple(){
+-        return "Welcome world";
++        return "Changes made to create patch from local changes";
+     }
+ }
